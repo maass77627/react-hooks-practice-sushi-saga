@@ -11,8 +11,8 @@
     "json-server": "^0.15.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "server": "json-server --watch db.json -p 3001",
+    "start": "PORT=3006 react-scripts start",
+    "server": "json-server --watch db.json -p 3004",
     "test": "jest"
   },
   "eslintConfig": {
