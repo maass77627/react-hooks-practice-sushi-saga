@@ -4,7 +4,7 @@ import Sushi from "./Sushi";
 import {useState} from "react"
 
 function SushiContainer({sushi, setEaten}) {
-
+//hello
   const [beltPosition, setBeltPosition] = useState(0)
   const COUNT = 4
 
